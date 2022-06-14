@@ -1,87 +1,42 @@
-# Core data concepts
-## Optimized file formats
--	Avro: JSON header for each record in compressed binary
--	ORC (Optimized Row Columnar format): Optimized for Hive
-	- Column-major format
-	-	Stripes contain columns + stats (count, min, etc.)
--	Parquet: Chunks (partitions) of data with metadata with e.g. location for each row.
+# Fundamental Relational Concepts
+- One common database structure
 
-## Databases
--	Normalization reduces redundancy by referencing entities in other tables via primary keys.
-### Non-relational
--	Key-value: record with unique key and some value
--	Document: Key-value with JSON value
--	Column-family: Rows and columns where columns can be grouped (e.g. nested schema in parquet)
-- Graph: Nodes and edges
+## Relational data
+- Based on tables
+- Each row is an **entity**
+- Strict schema, every row in a table have the same columns
+  - columns can be null
+  - columns are typed
 
-## Transactional systems
--	high-volume, low latency (e.g. retailer order database)
--	BOTH read and write optimized
-- CRUD: Create, Read, Update, Delete
--	ACID:
-	- Atomicity: Each transaction either succeeds in all steps or fails all steps
-	-	Consistency: Only valid states, completed transactions are reflected in DB
-	-	Isolation: Concurrent transactions don't interfere
-	-	Durability: Transactions are persisted (e.g. written to disk, maybe backuped)
+## Normalization
+- Simple definition:
+  1. Each entity type gets its own table
+  2. Each attribute gets its own column
+  3. Each entity (row) is uniquely identified using a primary key
+  4. Foreign keys link related entities in other tables
+- Removes duplication of data
+- Enforces data types (e.g. decimal prices, integral quantities)
+- Primary keys can be composite, i.e. unique combinations of multiple columns.
 
-## Analytical data processing
-- Mostly read optimized
-- Data lake: raw data from e.g. transactional system
--	Data warehouse: optimized for read
-	-	ETL takes Data lake -> Data warehouse (DW)
-	-	fact: numerical value to analyze (target feature, e.g. sales)
-	- dimension: table with entities related to fact (feature, e.g. customer, product)
-- OLAP: OnLine Analytical Processing model (cube with rollup etc.)
-	-	pre-aggregated data ready for very fast querying
-- DS often uses DL directly to model data
--	DA often uses DW to create OLAP and reports
-- Business users use OLAP to consume reports
+## SQL
+- Open standard, many vendors have proprietary extensions
+- Dialect examples:
+  - Transact-SQL (T-SQL): Microsoft SQL Server, Azure SQL. Allows writing application code to DB
+  - pgSQL: PostgreSQL
+  - Procedural Language/SQL (PL/SQL): Oracle
+- Statement types:
+  - Data Definition Language (DDL)
+    - Create, modify, remove tables
+    - CREATE, ALTER, DROP, RENAME
+  - Data Control Language (DCL)
+    - DB admins use DCL to manage permissions
+    - GRANT, DENY, REVOKE
+  - Data Manipulation Language (DML)
+    - Manipulate rows, query, insert etc.
+    - SELECT, INSERT, UPDATE, DELETE, WHERE
 
-# Roles and services
-## Roles
-- DB admin: manage DBs and access, backup and restore
-	-	security, policies
-- DE: manage infra for data, cleaning, pipelines
-	-	privacy, performance
-- DA: explore and analyze data for visualizations and reports
-
-## Services
--	Azure SQL: 
-	-	A SQL DB: PaaS, fully managed
-	- A SQL managed instance: instance with SQL server, more flexible than DB, but more admin
-	- A SQL VM: VM with SQL service, max flexibility
-- Azure DBs for open-source rel. DBs:
-	- MySQL
-	- MariaDB: rewritten and optimized MySQL
-	- PostgreSQL: allows non-rel. properties
-- Azure Cosmos DB
-	- NoSQL: JSON, k-v pairs, etc. (semi-structured)
-	- Usually managed as part of application by developers
-- Azure Storage
-	- Blob containers
-	- File shares: basically a NAS
-	- Tables: k-v stores for fast read and write
-- Azure Data Factory
-	- Pipelines, ETL
-- Azure Synapse Analytics
-	- Unified DA solution
-	- Pipelines as in ADF
-	- SQL
-	- Spark
-	- Synapse Data Explorer: query logs and telemetry with Kusto QL (KQL)
-	- Azure's answer to Databricks
-- Azure Databricks
-- Azure HDInsight
-	- Azure-hosted clusters for Spark, Hadoop, HBase, Kafka, and Storm.
-		- HBase: open-source large-scale NoSQL
-		- Storm: real-time data processing
-- Azure Stream Analytics
-	- Stream processing
-- Azure Data Explorer
-	- Standalone Synapse Data Explorer
-- Microsoft Purview
-	-	data governance and discoverability
-	- track data lineage
-- Microsoft Power BI
-
-## Fundamental Relational Concepts
+## Describe DB objects
+- Views: virtual tables based on SELECT query
+- Stored procedure: function in SQL
+- Index: optimize queries that filter on index column
+  - Makes reading fast, writing is slowed
