@@ -5,7 +5,7 @@
 - chaining
   - dependsOn property in Activity
 - branching
-- pararmeters
+- parameters
   - can be defined by trigger
 - state passing
   - access output of previous activites

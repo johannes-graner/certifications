@@ -1,4 +1,4 @@
-# Operationalize you Azure Data Factory or Azure Synapse Pipeline
+# Operationalize your Azure Data Factory or Azure Synapse Pipeline
 [https://docs.microsoft.com/en-us/learn/modules/operationalize-azure-data-factory-pipelines/]
 
 ## Language support
