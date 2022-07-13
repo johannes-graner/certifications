@@ -22,4 +22,4 @@
 - monitor jobs through logging
 ### Example of full pipeline
 - [Contoso Health Network](https://docs.microsoft.com/en-us/learn/modules/data-engineering-processes/4-architecturing-project)
-\n
+

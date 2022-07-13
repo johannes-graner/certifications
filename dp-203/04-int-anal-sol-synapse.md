@@ -13,7 +13,8 @@
 - advanced analytics
 - data exploration
 - real time analytics
-- data integration# Survey the Components of Azure Synapse Analytics
+- data integration
+# Survey the Components of Azure Synapse Analytics
 [https://docs.microsoft.com/en-us/learn/modules/survey-components-of-azure-synapse-analytics/]
 
 ## Synapse SQL
@@ -50,7 +51,8 @@
 - link e.g. Cosmos DB with Synapse
 - must enable on target resource
 - copies data from target to Synapse container
-- enable analytical store on container# Explore Azure Synapse Studio
+- enable analytical store on container
+# Explore Azure Synapse Studio
 [https://docs.microsoft.com/en-us/learn/modules/explore-azure-synapse-studio/]
 
 ## Analytical processes
@@ -103,7 +105,8 @@
   - private IP from VN
 - workspace packages
   - spark packages
-- git configuration# Design a Modern Data Warehouse using Azure Synapse Analytics
+- git configuration
+# Design a Modern Data Warehouse using Azure Synapse Analytics
 [https://docs.microsoft.com/en-us/learn/modules/design-modern-data-warehouse-using-azure-synapse-analytics/]
 
 ## Modern DWH
@@ -142,4 +145,4 @@
 ### bz/ag/au
 - bronze: raw
 - silver: query ready
-- gold: report ready\n
+- gold: report ready

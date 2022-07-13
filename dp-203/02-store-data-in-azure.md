@@ -28,7 +28,8 @@
 - Blob storage
   - works with Az Content Delivery Network
     - caching
-    - moves data to edge servers# Create an Azure storage account
+    - moves data to edge servers
+# Create an Azure storage account
 [https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/]
 ## No. accounts needed
 ### Storage account settings
@@ -58,7 +59,8 @@
   - blob: don't choose this
 
 ## Notes
-- Name must be globally unique (part of URI)# Connect an app to Azure Storage
+- Name must be globally unique (part of URI)
+# Connect an app to Azure Storage
 [https://docs.microsoft.com/en-us/learn/modules/connect-an-app-to-azure-storage/]
 ## Azure storage services
 - up to 250 accounts per subscription
@@ -93,7 +95,8 @@ az storage account create \
 - Access key
   - connection string
 - REST API endpoint
-  - e.g. ```https://[name].blob.core.windows.net/```# Secure you Azure Storage Account
+  - e.g. ```https://[name].blob.core.windows.net/```
+# Secure you Azure Storage Account
 [https://docs.microsoft.com/en-us/learn/modules/secure-azure-storage-account/]
 ## Security in Azure storage
 - Encryption at rest
@@ -138,7 +141,8 @@ az storage account create \
 ## Data Lake
 - RBAC
 - POSIX-compliant ACLs (read, write, execute)
-- Azure AD OAuth 2.0# Store application data with Azure Blob Storage
+- Azure AD OAuth 2.0
+# Store application data with Azure Blob Storage
 [https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/]
 - any number of containers in account
   - any number of blobs in container
@@ -165,4 +169,4 @@ az storage account create \
 - blob types
   - block: most cases14
   - append: streaming or logs
-  - page: random access\n
+  - page: random access

@@ -1,8 +1,9 @@
 #!/bin/bash
 dir=$1
 
-for file in "$dir/*.md"
+files="$dir/*.md"
+for file in $files
 do
   cat $file >> $dir.md
-  echo "\n" >> $dir.md
+  echo "" >> $dir.md
 done

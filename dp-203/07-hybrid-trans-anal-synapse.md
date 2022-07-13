@@ -18,7 +18,8 @@
 - Microsoft Dataverse
   - stores business table for Power Apps, Power BI, etc. (MS 365, Dynamics 365, Azure)
   - Synapse replicates table data to Data Lake Storage
-    - accessed through SQL or Spark pool# Implement Azure Synapse Link with Azure Cosmos DB
+    - accessed through SQL or Spark pool
+# Implement Azure Synapse Link with Azure Cosmos DB
 [https://docs.microsoft.com/en-us/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/]
 
 ## Enabling Synapse Link
@@ -73,7 +74,8 @@
   - database should use UTF-8 based collation
 - considerations for serverless SQL pools
   - use same region for pool and CDB (CDB can be geo-replicated)
-  - when using string cols, use explicit `WITH` clause with appropriate data length for strings# Implement Azure Synapse Link for SQL
+  - when using string cols, use explicit `WITH` clause with appropriate data length for strings
+# Implement Azure Synapse Link for SQL
 [https://docs.microsoft.com/en-us/learn/modules/implement-synapse-link-for-sql]
 
 ## Synapse Link for SQL
@@ -115,4 +117,4 @@
 - linked service for SQL Server
   - specify self-hosted IR
 - linked service for DL G2
-  - Synapse workspace must have Storage Blob Data Contributor on storage account\n
+  - Synapse workspace must have Storage Blob Data Contributor on storage account

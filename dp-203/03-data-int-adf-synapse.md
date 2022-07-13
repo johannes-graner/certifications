@@ -152,7 +152,8 @@
   - priv-priv: self-hosted
 - Lookup, GetMetadata: data store IR
 - transf.: target IR
-- Data Flow: associated IR# Petabyte-scale ingestion with Azure Data Factory or Azure Synapse Pipeline
+- Data Flow: associated IR
+# Petabyte-scale ingestion with Azure Data Factory or Azure Synapse Pipeline
 [https://docs.microsoft.com/en-us/learn/modules/petabyte-scale-ingestion-azure-data-factory/]
 
 ## IR
@@ -193,7 +194,8 @@ Azure AD
 - NSG flow logs for IR deployments -> Azure Storage
 - Activity Alerts, Log Analytics
 - diagnostic logs
-  - default 45 days# Perform code-free transformation at scaline with Azure Data Factory or Azure Synapse Pipeline
+  - default 45 days
+# Perform code-free transformation at scaline with Azure Data Factory or Azure Synapse Pipeline
 [https://docs.microsoft.com/en-us/learn/modules/code-free-transformation-scale/]
 
 ## Transformation methods
@@ -227,6 +229,7 @@ Usual steps
 - Analyze in Databricks
 
 ## SSIS
+
 # Populate slowly changing dimensions in Azure Synapse Analytics pipelines
 [https://docs.microsoft.com/en-us/learn/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines]
 - Slowly Changing Dimensions (SCD) are tables that handle changes to dimension valeus
@@ -252,7 +255,8 @@ Usual steps
   - only for few versioned columns
 - Type 6
   - combines 1,2,3
-  - # Orchestrate data movement and transformation in Azure Data Factory or Azure Synapse Pipeline
+  - 
+# Orchestrate data movement and transformation in Azure Data Factory or Azure Synapse Pipeline
 [https://docs.microsoft.com/en-us/learn/modules/orchestrate-data-movement-transformation-azure-data-factory/]
 
 ## Control Flow
@@ -316,7 +320,8 @@ Usual steps
   - SQL Server Data Tools (SSDT)
   - SQL Server Management Studio (SSMS)
   - Azure Data Studio
-  - cli# Execute existing SSIS packages in Azure Data Factory or Azure Synapse Pipeline
+  - cli
+# Execute existing SSIS packages in Azure Data Factory or Azure Synapse Pipeline
 [https://docs.microsoft.com/en-us/learn/modules/execute-existing-ssis-packages-azure-data-factory/]
 
 ## SSIS
@@ -358,7 +363,8 @@ Usual steps
   - single share location for source and target server
     - bypasses copy activity
   - correct permissions in shared folder
-  - encrypt connection# Operationalize your Azure Data Factory or Azure Synapse Pipeline
+  - encrypt connection
+# Operationalize your Azure Data Factory or Azure Synapse Pipeline
 [https://docs.microsoft.com/en-us/learn/modules/operationalize-azure-data-factory-pipelines/]
 
 ## Language support
@@ -447,4 +453,4 @@ only dev DF has git
 - whole pipeline
 - from activity
 - from failed activity
-\n
+

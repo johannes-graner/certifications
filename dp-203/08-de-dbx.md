@@ -5,6 +5,7 @@
   - slots are determined by number of cores
 - managed resource group
 - Azure Kubernetes Services (AKS) runs dbx control (e.g. cluster creation)
+
 # Azure Databricks performance features
 [https://docs.microsoft.com/en-us/learn/modules/describe-lazy-evaluation-performance-features-azure-databricks]
 
@@ -19,7 +20,8 @@
 - shuffling creates stage boundaries (sync points)
 - shuffle files are temporarily cached on executors
   - allows stage skipping
-  - manually caching makes sure files are persisted# Security in Azure Databricks
+  - manually caching makes sure files are persisted
+# Security in Azure Databricks
 [https://docs.microsoft.com/en-us/learn/modules/describe-platform-architecture-security-data-protection-azure-databricks]
 
 ## Control and Data planes
@@ -59,13 +61,15 @@
 
 ## Key Vault secrets
 - use Key Vault to register secrets in dbx
-- `dbutils.secrets ...`# CI/CD in Databricks with Azure DevOps
+- `dbutils.secrets ...`
+# CI/CD in Databricks with Azure DevOps
 [https://docs.microsoft.com/en-us/learn/modules/implement-ci-cd-azure-devops]
 
 - use pipelines in Azure DevOps for CI/CD
   - build pipeline for CI
   - release pipeline for CD
-- automates copying notebooks from dev to prod# Databricks/Synapse integration
+- automates copying notebooks from dev to prod
+# Databricks/Synapse integration
 [https://docs.microsoft.com/en-us/learn/modules/integrate-azure-databricks-other-azure-services]
 
 ## Synapse connector
@@ -84,7 +88,8 @@
   - set `forwardSparkAzureStorageCredentials` to `true`
 
 ## Best practices
-- write changes to staging table, then update real tables# Best practices for Azure Databricks
+- write changes to staging table, then update real tables
+# Best practices for Azure Databricks
 [https://docs.microsoft.com/en-us/learn/modules/describe-azure-databricks-best-practices]
 
 ## Admin
@@ -168,4 +173,4 @@
   - spilling a lot
     - Spark SQL tab for spill
     - L-series or more memory
-\n
+

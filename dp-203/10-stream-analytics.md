@@ -35,7 +35,8 @@
   - ADLS G2, Cosmos DB, SQL DB
   - Power BI
 - *exactly once* event processing
-- *at-least-once* event delivery# Enable reliable messaging for Big Data application using Azure Event Hubs
+- *at-least-once* event delivery
+# Enable reliable messaging for Big Data application using Azure Event Hubs
 [https://docs.microsoft.com/en-us/learn/modules/enable-reliable-messaging-for-big-data-apps-using-event-hubs]
 
 ## Azure Event Hubs
@@ -82,7 +83,8 @@
   - useful metrics
     - throttled requests: exceeded throughput limit
     - active connections
-    - incoming/outgoing bytes# Ingest data streams with Azure Stream Analytics
+    - incoming/outgoing bytes
+# Ingest data streams with Azure Stream Analytics
 [https://docs.microsoft.com/en-us/learn/modules/ingest-data-streams-with-azure-stream-analytics]
 
 ## Windowing
@@ -117,4 +119,4 @@
     - partitioned by Username
 - snapshot
   - group by identical timestamp values
-  - `GROUP BY System.Timestamp()`\n
+  - `GROUP BY System.Timestamp()`

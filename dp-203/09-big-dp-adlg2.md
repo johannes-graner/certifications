@@ -17,4 +17,4 @@
 - ingest
 - store
 - prep and train
-- model and serve\n
+- model and serve

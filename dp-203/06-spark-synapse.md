@@ -13,7 +13,8 @@
   - Azure SQL or SQL Server DB (Spark connector for SQL Server)
   - Cosmos DB linked service with Azure Synapse Link for Cosmos DB
   - Azure Data Explorer Kusto linked service
-  - external Hive metastore linked service# Use Delta Lake in Azure Synapse Analytics
+  - external Hive metastore linked service
+# Use Delta Lake in Azure Synapse Analytics
 [https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics]
 
 ## Catalog tables
@@ -28,7 +29,8 @@
 
 ## Delta Lake in SQL pool
 - `OPENROWSET` with `FORMAT = 'DELTA'`
-- shared access to databases in Spark metastore# Monitor and manage data engineering workloads with Apache Spark in Azure Synapse Analytics
+- shared access to databases in Spark metastore
+# Monitor and manage data engineering workloads with Apache Spark in Azure Synapse Analytics
 [https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics]
 
 ## Monitor Spark pools in Synapse
@@ -39,4 +41,4 @@
 - Kryo data serialization
 - bucketing
   - like partitioning, but each bucket holds several values
-\n
+

@@ -96,7 +96,8 @@
   - `APPROX_COUNT_DISTINCT`
     - hyperloglog
     - max error 2% with 97% prob.
-  - faster, good for data exploration# Use data loading best practices in Azure Synapse Analytics
+  - faster, good for data exploration
+# Use data loading best practices in Azure Synapse Analytics
 [https://docs.microsoft.com/en-us/learn/modules/use-data-loading-best-practices-azure-synapse-analytics/]
 
 ## design goals
@@ -165,7 +166,8 @@ WITH (
 - importance
   - high importance -> first in request queue
 - isolation
-  - reserve resources# Optimize data warehouse query performance in Azure Synapse Analytics
+  - reserve resources
+# Optimize data warehouse query performance in Azure Synapse Analytics
 [https://docs.microsoft.com/en-us/learn/modules/optimize-data-warehouse-query-performance-azure-synapse-analytics/]
 
 ## table distribution design
@@ -210,6 +212,7 @@ WITH (
 - max 1 TB
 - purged after 48 h
 
+
 # Integrate SQL and Apache Spark pools in Azure Synapse Analytics
 [https://docs.microsoft.com/en-us/learn/modules/integrate-sql-apache-spark-pools-azure-synapse-analytics/]
 
@@ -240,7 +243,8 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - TableType is external or internal
   - if external, must specify data source and file format (created before in SQL)
 - only with scala
-  - connect to pyspark with temp table views # Understand data warehouse developer features of Azure Synapse Analytics
+  - connect to pyspark with temp table views 
+# Understand data warehouse developer features of Azure Synapse Analytics
 [https://docs.microsoft.com/en-us/learn/modules/understand-data-warehouse-developer-features-of-azure-synapse-analytics]
 
 ## Explore dev tools for Synapse
@@ -321,7 +325,8 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - can grant permission to use procedure without granting permissions for underlying db objects
 - eases maintenance
 - improved performance
-  - compiled on first execution, then cached# Manage and monitor data warehouse activities in Azure Synapse Analytics
+  - compiled on first execution, then cached
+# Manage and monitor data warehouse activities in Azure Synapse Analytics
 [https://docs.microsoft.com/en-us/learn/modules/manage-monitor-data-warehouse-activities-azure-synapse-analytics]
 
 ## Scale compute resources
@@ -381,6 +386,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - memory
   - transaction log
   - PolyBase
+
 # Analyze and optimize data warehouse storage in Azure Synapse Analytics
 [https://docs.microsoft.com/en-us/learn/modules/analyze-optimize-data-warehouse-storage-azure-synapse-analytics]
 
@@ -476,7 +482,8 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - updates to secondary or non-clustered indexes are always fully logged
 ### Delete with minimal logging
 - `DELETE` is fully logged
-- CTAS + `RENAME` to select the kept rows# Secure a data warehouse in Azure Synapse Analytics
+- CTAS + `RENAME` to select the kept rows
+# Secure a data warehouse in Azure Synapse Analytics
 [https://docs.microsoft.com/en-us/learn/modules/secure-data-warehouse-azure-synapse-analytics]
 
 ## Network security options for Synapse
@@ -591,4 +598,4 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - for external data access (linked services)
 - not needed for Data Lake Gen2
 - `val connectionString = com.microsoft.azure.synapse.tokenlibrary.TokenLibrary.getConnectionString("<Linked service name>")`
-  - or `.getConnectionStringAsMap(...)` to get e.g. account key\n
+  - or `.getConnectionStringAsMap(...)` to get e.g. account key
