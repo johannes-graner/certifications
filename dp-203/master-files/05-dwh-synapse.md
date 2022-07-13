@@ -228,7 +228,7 @@ WITH (
 
 ## Authentication
 - Token Service with Azure AD
-### without Azure Adf
+### without Azure AD
 ```
 val df = spark.read.
 option(Constants.SERVER, "samplews.database.windows.net").
@@ -304,8 +304,8 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - `JSON_QUERY` to get JSON object or array from JSON string
 - modify
   - `JSON_MODIFY` to modify a value in JSON string
-  - `OPERJSON` to convert JSON collection to rows and columns
-    - `cross apply openjson (doc) with ( [col name] [col type] ['$.[field name] (only if col name != field name)] )`
+  - `OPENJSON` to convert JSON collection to rows and columns
+    - `CROSS APPLY OPENJSON (doc) WITH ( [col name] [col type] ['$.[field name] (only if col name != field name)] )`
 - query on serverless
   - `OPENROWSET`
  - either JSON array or line-delimited JSON files (e.g. jsonl)

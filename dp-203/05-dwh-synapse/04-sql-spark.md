@@ -13,7 +13,7 @@
 
 ## Authentication
 - Token Service with Azure AD
-### without Azure Adf
+### without Azure AD
 ```
 val df = spark.read.
 option(Constants.SERVER, "samplews.database.windows.net").
