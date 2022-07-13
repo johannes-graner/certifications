@@ -1,5 +1,5 @@
 # Introduction to Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/introduction-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/introduction-azure-synapse-analytics/>
 
 ## Overview
 - distributed query system
@@ -15,7 +15,7 @@
 - real time analytics
 - data integration
 # Survey the Components of Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/survey-components-of-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/survey-components-of-azure-synapse-analytics/>
 
 ## Synapse SQL
 - DWH
@@ -53,7 +53,7 @@
 - copies data from target to Synapse container
 - enable analytical store on container
 # Explore Azure Synapse Studio
-[https://docs.microsoft.com/en-us/learn/modules/explore-azure-synapse-studio/]
+<https://docs.microsoft.com/en-us/learn/modules/explore-azure-synapse-studio/>
 
 ## Analytical processes
 - DWH
@@ -107,7 +107,7 @@
   - spark packages
 - git configuration
 # Design a Modern Data Warehouse using Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/design-modern-data-warehouse-using-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/design-modern-data-warehouse-using-azure-synapse-analytics/>
 
 ## Modern DWH
 - 3 Vs

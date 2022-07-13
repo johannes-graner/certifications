@@ -1,5 +1,5 @@
 # Integrate data with Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/data-integration-azure-data-factory/]
+<https://docs.microsoft.com/en-us/learn/modules/data-integration-azure-data-factory/>
 
 ## Understanding ADF
 - orchestrate movement and transformation of data
@@ -139,10 +139,10 @@
   - execute SSIS packages in managed Azure compute
 ### Types
 - Azure
-  - public: Data Flow Data movement Activity dispatch
+  - public: Data Flow, Data movement, Activity dispatch
   - private: N/A
 - Self-hosted
-  - pub/priv: Data movement Activity dispatch
+  - pub/priv: Data movement, Activity dispatch
 - Azure-SSIS
   - pub/priv: SSIS package execution
 ### Determine correct runtime

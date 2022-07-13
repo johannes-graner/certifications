@@ -1,5 +1,5 @@
 # Analyze and optimize data warehouse storage in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/analyze-optimize-data-warehouse-storage-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/analyze-optimize-data-warehouse-storage-azure-synapse-analytics>
 
 ## Skewed data usage
 - `DBCC PDW_SHOWSPACEUSED` shows number of table rows in each of the 60 distributions

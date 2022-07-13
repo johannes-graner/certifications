@@ -1,5 +1,5 @@
 # Execute existing SSIS packages in Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/execute-existing-ssis-packages-azure-data-factory/]
+<https://docs.microsoft.com/en-us/learn/modules/execute-existing-ssis-packages-azure-data-factory/>
 
 ## SSIS
 - platform for developing ETL since 2005

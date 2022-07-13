@@ -1,5 +1,5 @@
 # Analyze data in a relational data warehouse
-[https://docs.microsoft.com/en-us/learn/modules/design-multidimensional-schema-to-optimize-analytical-workloads/]
+<https://docs.microsoft.com/en-us/learn/modules/design-multidimensional-schema-to-optimize-analytical-workloads/>
 
 - BI-centered
 

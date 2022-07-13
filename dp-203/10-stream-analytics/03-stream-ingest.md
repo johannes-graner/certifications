@@ -1,5 +1,5 @@
 # Ingest data streams with Azure Stream Analytics
-[https://docs.microsoft.com/en-us/learn/modules/ingest-data-streams-with-azure-stream-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/ingest-data-streams-with-azure-stream-analytics>
 
 ## Windowing
 - tumbling (just standard windows)

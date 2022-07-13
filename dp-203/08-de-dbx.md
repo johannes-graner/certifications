@@ -7,7 +7,7 @@
 - Azure Kubernetes Services (AKS) runs dbx control (e.g. cluster creation)
 
 # Azure Databricks performance features
-[https://docs.microsoft.com/en-us/learn/modules/describe-lazy-evaluation-performance-features-azure-databricks]
+<https://docs.microsoft.com/en-us/learn/modules/describe-lazy-evaluation-performance-features-azure-databricks>
 
 ## Shuffles and Tungsten
 - UnsafeRow = Tungsten Binary Format (TBF)
@@ -22,7 +22,7 @@
   - allows stage skipping
   - manually caching makes sure files are persisted
 # Security in Azure Databricks
-[https://docs.microsoft.com/en-us/learn/modules/describe-platform-architecture-security-data-protection-azure-databricks]
+<https://docs.microsoft.com/en-us/learn/modules/describe-platform-architecture-security-data-protection-azure-databricks>
 
 ## Control and Data planes
 - Azure manages dbx file system
@@ -63,14 +63,14 @@
 - use Key Vault to register secrets in dbx
 - `dbutils.secrets ...`
 # CI/CD in Databricks with Azure DevOps
-[https://docs.microsoft.com/en-us/learn/modules/implement-ci-cd-azure-devops]
+<https://docs.microsoft.com/en-us/learn/modules/implement-ci-cd-azure-devops>
 
 - use pipelines in Azure DevOps for CI/CD
   - build pipeline for CI
   - release pipeline for CD
 - automates copying notebooks from dev to prod
 # Databricks/Synapse integration
-[https://docs.microsoft.com/en-us/learn/modules/integrate-azure-databricks-other-azure-services]
+<https://docs.microsoft.com/en-us/learn/modules/integrate-azure-databricks-other-azure-services>
 
 ## Synapse connector
 - Azure blob storage as intermediary
@@ -90,7 +90,7 @@
 ## Best practices
 - write changes to staging table, then update real tables
 # Best practices for Azure Databricks
-[https://docs.microsoft.com/en-us/learn/modules/describe-azure-databricks-best-practices]
+<https://docs.microsoft.com/en-us/learn/modules/describe-azure-databricks-best-practices>
 
 ## Admin
 - when managing many workspaces, use ARM templates

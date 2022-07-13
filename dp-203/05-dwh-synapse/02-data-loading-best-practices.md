@@ -1,5 +1,5 @@
 # Use data loading best practices in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/use-data-loading-best-practices-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/use-data-loading-best-practices-azure-synapse-analytics/>
 
 ## design goals
 - balance load and query

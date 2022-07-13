@@ -1,5 +1,5 @@
 # Analyze data in a relational data warehouse
-[https://docs.microsoft.com/en-us/learn/modules/design-multidimensional-schema-to-optimize-analytical-workloads/]
+<https://docs.microsoft.com/en-us/learn/modules/design-multidimensional-schema-to-optimize-analytical-workloads/>
 
 - BI-centered
 
@@ -98,7 +98,7 @@
     - max error 2% with 97% prob.
   - faster, good for data exploration
 # Use data loading best practices in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/use-data-loading-best-practices-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/use-data-loading-best-practices-azure-synapse-analytics/>
 
 ## design goals
 - balance load and query
@@ -168,7 +168,7 @@ WITH (
 - isolation
   - reserve resources
 # Optimize data warehouse query performance in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/optimize-data-warehouse-query-performance-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/optimize-data-warehouse-query-performance-azure-synapse-analytics/>
 
 ## table distribution design
 - round-robin
@@ -214,7 +214,7 @@ WITH (
 
 
 # Integrate SQL and Apache Spark pools in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/integrate-sql-apache-spark-pools-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/integrate-sql-apache-spark-pools-azure-synapse-analytics/>
 
 ## connection methods
 - dedicated pool only
@@ -245,7 +245,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - only with scala
   - connect to pyspark with temp table views 
 # Understand data warehouse developer features of Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/understand-data-warehouse-developer-features-of-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/understand-data-warehouse-developer-features-of-azure-synapse-analytics>
 
 ## Explore dev tools for Synapse
 ### Synapse Studio
@@ -327,7 +327,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - improved performance
   - compiled on first execution, then cached
 # Manage and monitor data warehouse activities in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/manage-monitor-data-warehouse-activities-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/manage-monitor-data-warehouse-activities-azure-synapse-analytics>
 
 ## Scale compute resources
 - SQL pools
@@ -388,7 +388,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - PolyBase
 
 # Analyze and optimize data warehouse storage in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/analyze-optimize-data-warehouse-storage-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/analyze-optimize-data-warehouse-storage-azure-synapse-analytics>
 
 ## Skewed data usage
 - `DBCC PDW_SHOWSPACEUSED` shows number of table rows in each of the 60 distributions
@@ -484,7 +484,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - `DELETE` is fully logged
 - CTAS + `RENAME` to select the kept rows
 # Secure a data warehouse in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/secure-data-warehouse-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/secure-data-warehouse-azure-synapse-analytics>
 
 ## Network security options for Synapse
 ### firewall rules

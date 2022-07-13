@@ -1,5 +1,5 @@
 # Petabyte-scale ingestion with Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/petabyte-scale-ingestion-azure-data-factory/]
+<https://docs.microsoft.com/en-us/learn/modules/petabyte-scale-ingestion-azure-data-factory/>
 
 ## IR
 - can set up on Azure VM via ARM template

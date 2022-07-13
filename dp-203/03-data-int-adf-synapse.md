@@ -1,5 +1,5 @@
 # Integrate data with Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/data-integration-azure-data-factory/]
+<https://docs.microsoft.com/en-us/learn/modules/data-integration-azure-data-factory/>
 
 ## Understanding ADF
 - orchestrate movement and transformation of data
@@ -139,10 +139,10 @@
   - execute SSIS packages in managed Azure compute
 ### Types
 - Azure
-  - public: Data Flow Data movement Activity dispatch
+  - public: Data Flow, Data movement, Activity dispatch
   - private: N/A
 - Self-hosted
-  - pub/priv: Data movement Activity dispatch
+  - pub/priv: Data movement, Activity dispatch
 - Azure-SSIS
   - pub/priv: SSIS package execution
 ### Determine correct runtime
@@ -154,7 +154,7 @@
 - transf.: target IR
 - Data Flow: associated IR
 # Petabyte-scale ingestion with Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/petabyte-scale-ingestion-azure-data-factory/]
+<https://docs.microsoft.com/en-us/learn/modules/petabyte-scale-ingestion-azure-data-factory/>
 
 ## IR
 - can set up on Azure VM via ARM template
@@ -195,8 +195,8 @@ Azure AD
 - Activity Alerts, Log Analytics
 - diagnostic logs
   - default 45 days
-# Perform code-free transformation at scaline with Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/code-free-transformation-scale/]
+# Perform code-free transformation at scale with Azure Data Factory or Azure Synapse Pipeline
+<https://docs.microsoft.com/en-us/learn/modules/code-free-transformation-scale/>
 
 ## Transformation methods
 - Mapping Data Flow
@@ -228,10 +228,8 @@ Usual steps
 - Databricks notebook in pipeline: Transform
 - Analyze in Databricks
 
-## SSIS
-
 # Populate slowly changing dimensions in Azure Synapse Analytics pipelines
-[https://docs.microsoft.com/en-us/learn/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines]
+<https://docs.microsoft.com/en-us/learn/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines>
 - Slowly Changing Dimensions (SCD) are tables that handle changes to dimension valeus
 
 ## Describe SCD
@@ -255,9 +253,9 @@ Usual steps
   - only for few versioned columns
 - Type 6
   - combines 1,2,3
-  - 
+
 # Orchestrate data movement and transformation in Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/orchestrate-data-movement-transformation-azure-data-factory/]
+<https://docs.microsoft.com/en-us/learn/modules/orchestrate-data-movement-transformation-azure-data-factory>
 
 ## Control Flow
 - chaining
@@ -322,7 +320,7 @@ Usual steps
   - Azure Data Studio
   - cli
 # Execute existing SSIS packages in Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/execute-existing-ssis-packages-azure-data-factory/]
+<https://docs.microsoft.com/en-us/learn/modules/execute-existing-ssis-packages-azure-data-factory/>
 
 ## SSIS
 - platform for developing ETL since 2005
@@ -365,7 +363,7 @@ Usual steps
   - correct permissions in shared folder
   - encrypt connection
 # Operationalize your Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/operationalize-azure-data-factory-pipelines/]
+<https://docs.microsoft.com/en-us/learn/modules/operationalize-azure-data-factory-pipelines/>
 
 ## Language support
 - ADF available in SDKs

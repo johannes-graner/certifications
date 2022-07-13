@@ -1,5 +1,5 @@
 # Work with Hybrid Transactional and Analytical Processing Solutions using Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/design-hybrid-transactional-analytical-processing-using-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/design-hybrid-transactional-analytical-processing-using-azure-synapse-analytics>
 
 ## Hybrid Transactional / Analytical Processing (HTAP)
 - trans. data is replicated automatically to analytical store

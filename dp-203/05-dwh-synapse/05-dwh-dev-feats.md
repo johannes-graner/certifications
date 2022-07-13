@@ -1,5 +1,5 @@
 # Understand data warehouse developer features of Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/understand-data-warehouse-developer-features-of-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/understand-data-warehouse-developer-features-of-azure-synapse-analytics>
 
 ## Explore dev tools for Synapse
 ### Synapse Studio

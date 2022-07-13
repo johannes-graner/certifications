@@ -1,5 +1,5 @@
 # Design a Modern Data Warehouse using Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/design-modern-data-warehouse-using-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/design-modern-data-warehouse-using-azure-synapse-analytics/>
 
 ## Modern DWH
 - 3 Vs

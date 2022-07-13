@@ -24,7 +24,7 @@
 - [Contoso Health Network](https://docs.microsoft.com/en-us/learn/modules/data-engineering-processes/4-architecturing-project)
 
 # Choose a data storage approach in Azure
-[https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/]
+<https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/>
 ## Classify your data
 - structured, semi-structured, unstructured
 ### semi-structured
@@ -55,7 +55,7 @@
     - caching
     - moves data to edge servers
 # Create an Azure storage account
-[https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/]
+<https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/>
 ## No. accounts needed
 ### Storage account settings
 - Subscription: billing unit
@@ -86,7 +86,7 @@
 ## Notes
 - Name must be globally unique (part of URI)
 # Connect an app to Azure Storage
-[https://docs.microsoft.com/en-us/learn/modules/connect-an-app-to-azure-storage/]
+<https://docs.microsoft.com/en-us/learn/modules/connect-an-app-to-azure-storage/>
 ## Azure storage services
 - up to 250 accounts per subscription
 - up to 5 PiB per account
@@ -122,7 +122,7 @@ az storage account create \
 - REST API endpoint
   - e.g. ```https://[name].blob.core.windows.net/```
 # Secure you Azure Storage Account
-[https://docs.microsoft.com/en-us/learn/modules/secure-azure-storage-account/]
+<https://docs.microsoft.com/en-us/learn/modules/secure-azure-storage-account/>
 ## Security in Azure storage
 - Encryption at rest
   - Storage Service Encryption (SSE)
@@ -168,7 +168,7 @@ az storage account create \
 - POSIX-compliant ACLs (read, write, execute)
 - Azure AD OAuth 2.0
 # Store application data with Azure Blob Storage
-[https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/]
+<https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/>
 - any number of containers in account
   - any number of blobs in container
 - name-value metadata can be attached
@@ -196,7 +196,7 @@ az storage account create \
   - append: streaming or logs
   - page: random access
 # Integrate data with Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/data-integration-azure-data-factory/]
+<https://docs.microsoft.com/en-us/learn/modules/data-integration-azure-data-factory/>
 
 ## Understanding ADF
 - orchestrate movement and transformation of data
@@ -336,10 +336,10 @@ az storage account create \
   - execute SSIS packages in managed Azure compute
 ### Types
 - Azure
-  - public: Data Flow Data movement Activity dispatch
+  - public: Data Flow, Data movement, Activity dispatch
   - private: N/A
 - Self-hosted
-  - pub/priv: Data movement Activity dispatch
+  - pub/priv: Data movement, Activity dispatch
 - Azure-SSIS
   - pub/priv: SSIS package execution
 ### Determine correct runtime
@@ -351,7 +351,7 @@ az storage account create \
 - transf.: target IR
 - Data Flow: associated IR
 # Petabyte-scale ingestion with Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/petabyte-scale-ingestion-azure-data-factory/]
+<https://docs.microsoft.com/en-us/learn/modules/petabyte-scale-ingestion-azure-data-factory/>
 
 ## IR
 - can set up on Azure VM via ARM template
@@ -392,8 +392,8 @@ Azure AD
 - Activity Alerts, Log Analytics
 - diagnostic logs
   - default 45 days
-# Perform code-free transformation at scaline with Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/code-free-transformation-scale/]
+# Perform code-free transformation at scale with Azure Data Factory or Azure Synapse Pipeline
+<https://docs.microsoft.com/en-us/learn/modules/code-free-transformation-scale/>
 
 ## Transformation methods
 - Mapping Data Flow
@@ -425,10 +425,8 @@ Usual steps
 - Databricks notebook in pipeline: Transform
 - Analyze in Databricks
 
-## SSIS
-
 # Populate slowly changing dimensions in Azure Synapse Analytics pipelines
-[https://docs.microsoft.com/en-us/learn/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines]
+<https://docs.microsoft.com/en-us/learn/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines>
 - Slowly Changing Dimensions (SCD) are tables that handle changes to dimension valeus
 
 ## Describe SCD
@@ -452,9 +450,9 @@ Usual steps
   - only for few versioned columns
 - Type 6
   - combines 1,2,3
-  - 
+
 # Orchestrate data movement and transformation in Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/orchestrate-data-movement-transformation-azure-data-factory/]
+<https://docs.microsoft.com/en-us/learn/modules/orchestrate-data-movement-transformation-azure-data-factory>
 
 ## Control Flow
 - chaining
@@ -519,7 +517,7 @@ Usual steps
   - Azure Data Studio
   - cli
 # Execute existing SSIS packages in Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/execute-existing-ssis-packages-azure-data-factory/]
+<https://docs.microsoft.com/en-us/learn/modules/execute-existing-ssis-packages-azure-data-factory/>
 
 ## SSIS
 - platform for developing ETL since 2005
@@ -562,7 +560,7 @@ Usual steps
   - correct permissions in shared folder
   - encrypt connection
 # Operationalize your Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/operationalize-azure-data-factory-pipelines/]
+<https://docs.microsoft.com/en-us/learn/modules/operationalize-azure-data-factory-pipelines/>
 
 ## Language support
 - ADF available in SDKs
@@ -652,7 +650,7 @@ only dev DF has git
 - from failed activity
 
 # Introduction to Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/introduction-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/introduction-azure-synapse-analytics/>
 
 ## Overview
 - distributed query system
@@ -668,7 +666,7 @@ only dev DF has git
 - real time analytics
 - data integration
 # Survey the Components of Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/survey-components-of-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/survey-components-of-azure-synapse-analytics/>
 
 ## Synapse SQL
 - DWH
@@ -706,7 +704,7 @@ only dev DF has git
 - copies data from target to Synapse container
 - enable analytical store on container
 # Explore Azure Synapse Studio
-[https://docs.microsoft.com/en-us/learn/modules/explore-azure-synapse-studio/]
+<https://docs.microsoft.com/en-us/learn/modules/explore-azure-synapse-studio/>
 
 ## Analytical processes
 - DWH
@@ -760,7 +758,7 @@ only dev DF has git
   - spark packages
 - git configuration
 # Design a Modern Data Warehouse using Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/design-modern-data-warehouse-using-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/design-modern-data-warehouse-using-azure-synapse-analytics/>
 
 ## Modern DWH
 - 3 Vs
@@ -800,7 +798,7 @@ only dev DF has git
 - silver: query ready
 - gold: report ready
 # Analyze data in a relational data warehouse
-[https://docs.microsoft.com/en-us/learn/modules/design-multidimensional-schema-to-optimize-analytical-workloads/]
+<https://docs.microsoft.com/en-us/learn/modules/design-multidimensional-schema-to-optimize-analytical-workloads/>
 
 - BI-centered
 
@@ -899,7 +897,7 @@ only dev DF has git
     - max error 2% with 97% prob.
   - faster, good for data exploration
 # Use data loading best practices in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/use-data-loading-best-practices-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/use-data-loading-best-practices-azure-synapse-analytics/>
 
 ## design goals
 - balance load and query
@@ -969,7 +967,7 @@ WITH (
 - isolation
   - reserve resources
 # Optimize data warehouse query performance in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/optimize-data-warehouse-query-performance-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/optimize-data-warehouse-query-performance-azure-synapse-analytics/>
 
 ## table distribution design
 - round-robin
@@ -1015,7 +1013,7 @@ WITH (
 
 
 # Integrate SQL and Apache Spark pools in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/integrate-sql-apache-spark-pools-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/integrate-sql-apache-spark-pools-azure-synapse-analytics/>
 
 ## connection methods
 - dedicated pool only
@@ -1046,7 +1044,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - only with scala
   - connect to pyspark with temp table views 
 # Understand data warehouse developer features of Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/understand-data-warehouse-developer-features-of-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/understand-data-warehouse-developer-features-of-azure-synapse-analytics>
 
 ## Explore dev tools for Synapse
 ### Synapse Studio
@@ -1128,7 +1126,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - improved performance
   - compiled on first execution, then cached
 # Manage and monitor data warehouse activities in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/manage-monitor-data-warehouse-activities-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/manage-monitor-data-warehouse-activities-azure-synapse-analytics>
 
 ## Scale compute resources
 - SQL pools
@@ -1189,7 +1187,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - PolyBase
 
 # Analyze and optimize data warehouse storage in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/analyze-optimize-data-warehouse-storage-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/analyze-optimize-data-warehouse-storage-azure-synapse-analytics>
 
 ## Skewed data usage
 - `DBCC PDW_SHOWSPACEUSED` shows number of table rows in each of the 60 distributions
@@ -1285,7 +1283,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - `DELETE` is fully logged
 - CTAS + `RENAME` to select the kept rows
 # Secure a data warehouse in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/secure-data-warehouse-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/secure-data-warehouse-azure-synapse-analytics>
 
 ## Network security options for Synapse
 ### firewall rules
@@ -1401,7 +1399,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - `val connectionString = com.microsoft.azure.synapse.tokenlibrary.TokenLibrary.getConnectionString("<Linked service name>")`
   - or `.getConnectionStringAsMap(...)` to get e.g. account key
 # Analyze data with Apache Spark in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics>
 
 ## Spark
 - cluster manager allocates resource on Hadoop YARN cluster
@@ -1417,7 +1415,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - Azure Data Explorer Kusto linked service
   - external Hive metastore linked service
 # Use Delta Lake in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics>
 
 ## Catalog tables
 - managed table
@@ -1433,7 +1431,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - `OPENROWSET` with `FORMAT = 'DELTA'`
 - shared access to databases in Spark metastore
 # Monitor and manage data engineering workloads with Apache Spark in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics>
 
 ## Monitor Spark pools in Synapse
 - Monitor tab in Synapse Studio
@@ -1445,7 +1443,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - like partitioning, but each bucket holds several values
 
 # Work with Hybrid Transactional and Analytical Processing Solutions using Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/design-hybrid-transactional-analytical-processing-using-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/design-hybrid-transactional-analytical-processing-using-azure-synapse-analytics>
 
 ## Hybrid Transactional / Analytical Processing (HTAP)
 - trans. data is replicated automatically to analytical store
@@ -1466,7 +1464,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - Synapse replicates table data to Data Lake Storage
     - accessed through SQL or Spark pool
 # Implement Azure Synapse Link with Azure Cosmos DB
-[https://docs.microsoft.com/en-us/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/]
+<https://docs.microsoft.com/en-us/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/>
 
 ## Enabling Synapse Link
 - supported for Core (SQL) and MongoDB APIs
@@ -1522,7 +1520,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - use same region for pool and CDB (CDB can be geo-replicated)
   - when using string cols, use explicit `WITH` clause with appropriate data length for strings
 # Implement Azure Synapse Link for SQL
-[https://docs.microsoft.com/en-us/learn/modules/implement-synapse-link-for-sql]
+<https://docs.microsoft.com/en-us/learn/modules/implement-synapse-link-for-sql>
 
 ## Synapse Link for SQL
 - Azure SQL DB or SQL Server 2022 with trans. rel. db
@@ -1573,7 +1571,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - Azure Kubernetes Services (AKS) runs dbx control (e.g. cluster creation)
 
 # Azure Databricks performance features
-[https://docs.microsoft.com/en-us/learn/modules/describe-lazy-evaluation-performance-features-azure-databricks]
+<https://docs.microsoft.com/en-us/learn/modules/describe-lazy-evaluation-performance-features-azure-databricks>
 
 ## Shuffles and Tungsten
 - UnsafeRow = Tungsten Binary Format (TBF)
@@ -1588,7 +1586,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - allows stage skipping
   - manually caching makes sure files are persisted
 # Security in Azure Databricks
-[https://docs.microsoft.com/en-us/learn/modules/describe-platform-architecture-security-data-protection-azure-databricks]
+<https://docs.microsoft.com/en-us/learn/modules/describe-platform-architecture-security-data-protection-azure-databricks>
 
 ## Control and Data planes
 - Azure manages dbx file system
@@ -1629,14 +1627,14 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - use Key Vault to register secrets in dbx
 - `dbutils.secrets ...`
 # CI/CD in Databricks with Azure DevOps
-[https://docs.microsoft.com/en-us/learn/modules/implement-ci-cd-azure-devops]
+<https://docs.microsoft.com/en-us/learn/modules/implement-ci-cd-azure-devops>
 
 - use pipelines in Azure DevOps for CI/CD
   - build pipeline for CI
   - release pipeline for CD
 - automates copying notebooks from dev to prod
 # Databricks/Synapse integration
-[https://docs.microsoft.com/en-us/learn/modules/integrate-azure-databricks-other-azure-services]
+<https://docs.microsoft.com/en-us/learn/modules/integrate-azure-databricks-other-azure-services>
 
 ## Synapse connector
 - Azure blob storage as intermediary
@@ -1656,7 +1654,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 ## Best practices
 - write changes to staging table, then update real tables
 # Best practices for Azure Databricks
-[https://docs.microsoft.com/en-us/learn/modules/describe-azure-databricks-best-practices]
+<https://docs.microsoft.com/en-us/learn/modules/describe-azure-databricks-best-practices>
 
 ## Admin
 - when managing many workspaces, use ARM templates
@@ -1741,7 +1739,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
     - L-series or more memory
 
 # Introduction to Azure Data Lake storage
-[https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-data-lake-storage]
+<https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-data-lake-storage>
 
 ## Azure Data Lake Storage Gen2 (ADL G2)
 - builds on Azure Blob storage
@@ -1761,7 +1759,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - prep and train
 - model and serve
 # Work with data stream by using Azure Stream Analytics
-[https://docs.microsoft.com/en-us/learn/modules/introduction-to-data-streaming]
+<https://docs.microsoft.com/en-us/learn/modules/introduction-to-data-streaming>
 
 ## Stream processing approaches
 - live 
@@ -1799,7 +1797,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - *exactly once* event processing
 - *at-least-once* event delivery
 # Enable reliable messaging for Big Data application using Azure Event Hubs
-[https://docs.microsoft.com/en-us/learn/modules/enable-reliable-messaging-for-big-data-apps-using-event-hubs]
+<https://docs.microsoft.com/en-us/learn/modules/enable-reliable-messaging-for-big-data-apps-using-event-hubs>
 
 ## Azure Event Hubs
 - pub-sub model
@@ -1847,7 +1845,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
     - active connections
     - incoming/outgoing bytes
 # Ingest data streams with Azure Stream Analytics
-[https://docs.microsoft.com/en-us/learn/modules/ingest-data-streams-with-azure-stream-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/ingest-data-streams-with-azure-stream-analytics>
 
 ## Windowing
 - tumbling (just standard windows)

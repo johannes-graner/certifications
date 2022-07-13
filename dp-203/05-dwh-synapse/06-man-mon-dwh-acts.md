@@ -1,5 +1,5 @@
 # Manage and monitor data warehouse activities in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/manage-monitor-data-warehouse-activities-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/manage-monitor-data-warehouse-activities-azure-synapse-analytics>
 
 ## Scale compute resources
 - SQL pools

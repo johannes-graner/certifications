@@ -1,5 +1,5 @@
 # Connect an app to Azure Storage
-[https://docs.microsoft.com/en-us/learn/modules/connect-an-app-to-azure-storage/]
+<https://docs.microsoft.com/en-us/learn/modules/connect-an-app-to-azure-storage/>
 ## Azure storage services
 - up to 250 accounts per subscription
 - up to 5 PiB per account

@@ -1,5 +1,5 @@
 # Enable reliable messaging for Big Data application using Azure Event Hubs
-[https://docs.microsoft.com/en-us/learn/modules/enable-reliable-messaging-for-big-data-apps-using-event-hubs]
+<https://docs.microsoft.com/en-us/learn/modules/enable-reliable-messaging-for-big-data-apps-using-event-hubs>
 
 ## Azure Event Hubs
 - pub-sub model

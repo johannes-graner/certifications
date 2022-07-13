@@ -1,5 +1,5 @@
 # Analyze data with Apache Spark in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics>
 
 ## Spark
 - cluster manager allocates resource on Hadoop YARN cluster

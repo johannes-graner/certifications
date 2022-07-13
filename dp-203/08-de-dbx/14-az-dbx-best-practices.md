@@ -1,5 +1,5 @@
 # Best practices for Azure Databricks
-[https://docs.microsoft.com/en-us/learn/modules/describe-azure-databricks-best-practices]
+<https://docs.microsoft.com/en-us/learn/modules/describe-azure-databricks-best-practices>
 
 ## Admin
 - when managing many workspaces, use ARM templates

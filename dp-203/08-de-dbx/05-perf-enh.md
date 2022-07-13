@@ -1,5 +1,5 @@
 # Azure Databricks performance features
-[https://docs.microsoft.com/en-us/learn/modules/describe-lazy-evaluation-performance-features-azure-databricks]
+<https://docs.microsoft.com/en-us/learn/modules/describe-lazy-evaluation-performance-features-azure-databricks>
 
 ## Shuffles and Tungsten
 - UnsafeRow = Tungsten Binary Format (TBF)

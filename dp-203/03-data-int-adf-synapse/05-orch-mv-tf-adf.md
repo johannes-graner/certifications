@@ -1,5 +1,5 @@
 # Orchestrate data movement and transformation in Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/orchestrate-data-movement-transformation-azure-data-factory/]
+<https://docs.microsoft.com/en-us/learn/modules/orchestrate-data-movement-transformation-azure-data-factory>
 
 ## Control Flow
 - chaining

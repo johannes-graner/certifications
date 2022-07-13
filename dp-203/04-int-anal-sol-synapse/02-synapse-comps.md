@@ -1,5 +1,5 @@
 # Survey the Components of Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/survey-components-of-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/survey-components-of-azure-synapse-analytics/>
 
 ## Synapse SQL
 - DWH

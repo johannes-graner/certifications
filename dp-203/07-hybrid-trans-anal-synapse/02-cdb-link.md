@@ -1,5 +1,5 @@
 # Implement Azure Synapse Link with Azure Cosmos DB
-[https://docs.microsoft.com/en-us/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/]
+<https://docs.microsoft.com/en-us/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/>
 
 ## Enabling Synapse Link
 - supported for Core (SQL) and MongoDB APIs

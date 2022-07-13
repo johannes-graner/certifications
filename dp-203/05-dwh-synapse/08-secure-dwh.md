@@ -1,5 +1,5 @@
 # Secure a data warehouse in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/secure-data-warehouse-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/secure-data-warehouse-azure-synapse-analytics>
 
 ## Network security options for Synapse
 ### firewall rules

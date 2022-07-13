@@ -1,5 +1,5 @@
 # Store application data with Azure Blob Storage
-[https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/]
+<https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/>
 - any number of containers in account
   - any number of blobs in container
 - name-value metadata can be attached

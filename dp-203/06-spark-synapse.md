@@ -1,5 +1,5 @@
 # Analyze data with Apache Spark in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics>
 
 ## Spark
 - cluster manager allocates resource on Hadoop YARN cluster
@@ -15,7 +15,7 @@
   - Azure Data Explorer Kusto linked service
   - external Hive metastore linked service
 # Use Delta Lake in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics>
 
 ## Catalog tables
 - managed table
@@ -31,7 +31,7 @@
 - `OPENROWSET` with `FORMAT = 'DELTA'`
 - shared access to databases in Spark metastore
 # Monitor and manage data engineering workloads with Apache Spark in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/understand-big-data-engineering-with-apache-spark-azure-synapse-analytics>
 
 ## Monitor Spark pools in Synapse
 - Monitor tab in Synapse Studio

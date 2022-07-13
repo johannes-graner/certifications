@@ -1,5 +1,5 @@
 # Populate slowly changing dimensions in Azure Synapse Analytics pipelines
-[https://docs.microsoft.com/en-us/learn/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines]
+<https://docs.microsoft.com/en-us/learn/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines>
 - Slowly Changing Dimensions (SCD) are tables that handle changes to dimension valeus
 
 ## Describe SCD
@@ -23,4 +23,3 @@
   - only for few versioned columns
 - Type 6
   - combines 1,2,3
-  - 

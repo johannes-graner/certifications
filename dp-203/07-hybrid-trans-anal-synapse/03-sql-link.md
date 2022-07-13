@@ -1,5 +1,5 @@
 # Implement Azure Synapse Link for SQL
-[https://docs.microsoft.com/en-us/learn/modules/implement-synapse-link-for-sql]
+<https://docs.microsoft.com/en-us/learn/modules/implement-synapse-link-for-sql>
 
 ## Synapse Link for SQL
 - Azure SQL DB or SQL Server 2022 with trans. rel. db

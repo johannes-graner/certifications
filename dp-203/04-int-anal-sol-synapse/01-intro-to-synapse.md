@@ -1,5 +1,5 @@
 # Introduction to Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/introduction-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/introduction-azure-synapse-analytics/>
 
 ## Overview
 - distributed query system

@@ -1,5 +1,5 @@
 # Work with Hybrid Transactional and Analytical Processing Solutions using Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/design-hybrid-transactional-analytical-processing-using-azure-synapse-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/design-hybrid-transactional-analytical-processing-using-azure-synapse-analytics>
 
 ## Hybrid Transactional / Analytical Processing (HTAP)
 - trans. data is replicated automatically to analytical store
@@ -20,7 +20,7 @@
   - Synapse replicates table data to Data Lake Storage
     - accessed through SQL or Spark pool
 # Implement Azure Synapse Link with Azure Cosmos DB
-[https://docs.microsoft.com/en-us/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/]
+<https://docs.microsoft.com/en-us/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/>
 
 ## Enabling Synapse Link
 - supported for Core (SQL) and MongoDB APIs
@@ -76,7 +76,7 @@
   - use same region for pool and CDB (CDB can be geo-replicated)
   - when using string cols, use explicit `WITH` clause with appropriate data length for strings
 # Implement Azure Synapse Link for SQL
-[https://docs.microsoft.com/en-us/learn/modules/implement-synapse-link-for-sql]
+<https://docs.microsoft.com/en-us/learn/modules/implement-synapse-link-for-sql>
 
 ## Synapse Link for SQL
 - Azure SQL DB or SQL Server 2022 with trans. rel. db

@@ -1,5 +1,5 @@
 # Security in Azure Databricks
-[https://docs.microsoft.com/en-us/learn/modules/describe-platform-architecture-security-data-protection-azure-databricks]
+<https://docs.microsoft.com/en-us/learn/modules/describe-platform-architecture-security-data-protection-azure-databricks>
 
 ## Control and Data planes
 - Azure manages dbx file system

@@ -1,5 +1,5 @@
 # Optimize data warehouse query performance in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/optimize-data-warehouse-query-performance-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/optimize-data-warehouse-query-performance-azure-synapse-analytics/>
 
 ## table distribution design
 - round-robin

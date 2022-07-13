@@ -1,5 +1,5 @@
 # Operationalize your Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/operationalize-azure-data-factory-pipelines/]
+<https://docs.microsoft.com/en-us/learn/modules/operationalize-azure-data-factory-pipelines/>
 
 ## Language support
 - ADF available in SDKs

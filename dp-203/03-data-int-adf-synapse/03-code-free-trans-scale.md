@@ -1,5 +1,5 @@
-# Perform code-free transformation at scaline with Azure Data Factory or Azure Synapse Pipeline
-[https://docs.microsoft.com/en-us/learn/modules/code-free-transformation-scale/]
+# Perform code-free transformation at scale with Azure Data Factory or Azure Synapse Pipeline
+<https://docs.microsoft.com/en-us/learn/modules/code-free-transformation-scale/>
 
 ## Transformation methods
 - Mapping Data Flow
@@ -30,5 +30,3 @@ Usual steps
 - Pipeline with copy: Extract, Load
 - Databricks notebook in pipeline: Transform
 - Analyze in Databricks
-
-## SSIS

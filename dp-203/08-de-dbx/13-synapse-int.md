@@ -1,5 +1,5 @@
 # Databricks/Synapse integration
-[https://docs.microsoft.com/en-us/learn/modules/integrate-azure-databricks-other-azure-services]
+<https://docs.microsoft.com/en-us/learn/modules/integrate-azure-databricks-other-azure-services>
 
 ## Synapse connector
 - Azure blob storage as intermediary

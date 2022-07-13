@@ -1,5 +1,5 @@
 # Integrate SQL and Apache Spark pools in Azure Synapse Analytics
-[https://docs.microsoft.com/en-us/learn/modules/integrate-sql-apache-spark-pools-azure-synapse-analytics/]
+<https://docs.microsoft.com/en-us/learn/modules/integrate-sql-apache-spark-pools-azure-synapse-analytics/>
 
 ## connection methods
 - dedicated pool only

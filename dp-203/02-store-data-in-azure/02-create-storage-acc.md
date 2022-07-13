@@ -1,5 +1,5 @@
 # Create an Azure storage account
-[https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/]
+<https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/>
 ## No. accounts needed
 ### Storage account settings
 - Subscription: billing unit

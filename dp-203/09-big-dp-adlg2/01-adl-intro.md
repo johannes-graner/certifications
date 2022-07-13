@@ -1,5 +1,5 @@
 # Introduction to Azure Data Lake storage
-[https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-data-lake-storage]
+<https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-data-lake-storage>
 
 ## Azure Data Lake Storage Gen2 (ADL G2)
 - builds on Azure Blob storage

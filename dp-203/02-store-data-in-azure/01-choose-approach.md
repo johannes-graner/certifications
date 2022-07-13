@@ -1,5 +1,5 @@
 # Choose a data storage approach in Azure
-[https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/]
+<https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/>
 ## Classify your data
 - structured, semi-structured, unstructured
 ### semi-structured

@@ -1,5 +1,5 @@
 # Explore Azure Synapse Studio
-[https://docs.microsoft.com/en-us/learn/modules/explore-azure-synapse-studio/]
+<https://docs.microsoft.com/en-us/learn/modules/explore-azure-synapse-studio/>
 
 ## Analytical processes
 - DWH

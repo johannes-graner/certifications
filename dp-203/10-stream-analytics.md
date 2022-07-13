@@ -1,5 +1,5 @@
 # Work with data stream by using Azure Stream Analytics
-[https://docs.microsoft.com/en-us/learn/modules/introduction-to-data-streaming]
+<https://docs.microsoft.com/en-us/learn/modules/introduction-to-data-streaming>
 
 ## Stream processing approaches
 - live 
@@ -37,7 +37,7 @@
 - *exactly once* event processing
 - *at-least-once* event delivery
 # Enable reliable messaging for Big Data application using Azure Event Hubs
-[https://docs.microsoft.com/en-us/learn/modules/enable-reliable-messaging-for-big-data-apps-using-event-hubs]
+<https://docs.microsoft.com/en-us/learn/modules/enable-reliable-messaging-for-big-data-apps-using-event-hubs>
 
 ## Azure Event Hubs
 - pub-sub model
@@ -85,7 +85,7 @@
     - active connections
     - incoming/outgoing bytes
 # Ingest data streams with Azure Stream Analytics
-[https://docs.microsoft.com/en-us/learn/modules/ingest-data-streams-with-azure-stream-analytics]
+<https://docs.microsoft.com/en-us/learn/modules/ingest-data-streams-with-azure-stream-analytics>
 
 ## Windowing
 - tumbling (just standard windows)

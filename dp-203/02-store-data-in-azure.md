@@ -1,5 +1,5 @@
 # Choose a data storage approach in Azure
-[https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/]
+<https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/>
 ## Classify your data
 - structured, semi-structured, unstructured
 ### semi-structured
@@ -30,7 +30,7 @@
     - caching
     - moves data to edge servers
 # Create an Azure storage account
-[https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/]
+<https://docs.microsoft.com/en-us/learn/modules/create-azure-storage-account/>
 ## No. accounts needed
 ### Storage account settings
 - Subscription: billing unit
@@ -61,7 +61,7 @@
 ## Notes
 - Name must be globally unique (part of URI)
 # Connect an app to Azure Storage
-[https://docs.microsoft.com/en-us/learn/modules/connect-an-app-to-azure-storage/]
+<https://docs.microsoft.com/en-us/learn/modules/connect-an-app-to-azure-storage/>
 ## Azure storage services
 - up to 250 accounts per subscription
 - up to 5 PiB per account
@@ -97,7 +97,7 @@ az storage account create \
 - REST API endpoint
   - e.g. ```https://[name].blob.core.windows.net/```
 # Secure you Azure Storage Account
-[https://docs.microsoft.com/en-us/learn/modules/secure-azure-storage-account/]
+<https://docs.microsoft.com/en-us/learn/modules/secure-azure-storage-account/>
 ## Security in Azure storage
 - Encryption at rest
   - Storage Service Encryption (SSE)
@@ -143,7 +143,7 @@ az storage account create \
 - POSIX-compliant ACLs (read, write, execute)
 - Azure AD OAuth 2.0
 # Store application data with Azure Blob Storage
-[https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/]
+<https://docs.microsoft.com/en-us/learn/modules/store-app-data-with-azure-blob-storage/>
 - any number of containers in account
   - any number of blobs in container
 - name-value metadata can be attached

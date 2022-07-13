@@ -1,5 +1,5 @@
 # Work with data stream by using Azure Stream Analytics
-[https://docs.microsoft.com/en-us/learn/modules/introduction-to-data-streaming]
+<https://docs.microsoft.com/en-us/learn/modules/introduction-to-data-streaming>
 
 ## Stream processing approaches
 - live 
