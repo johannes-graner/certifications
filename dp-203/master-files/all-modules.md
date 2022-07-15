@@ -1167,7 +1167,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 
 ## Dynamic management views
 - monitor SQL pools programmatically with T-SQL
-- > 90 views available in following areas
+- \> 90 views available in following areas
   - connection info and activity
     - `sys.dm_pdw_exec_sessions`
   - SQL execution requests and queries
@@ -1239,7 +1239,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - smallest int type is `tinyint` (0-255) (e.g. age)
   - `DATETIME` instead of string or int, conversion overhead is expensive
   - use `DATE` instead of `DATETIME` if time of day is unnecessary
-- PolyBase load only works with < 1 MB rows, BCP always works
+- PolyBase load only works with < 1 MB row size, BCP always works
 - [workarounds for unsupported types in dedicated SQL pools](https://docs.microsoft.com/en-us/learn/modules/analyze-optimize-data-warehouse-storage-azure-synapse-analytics/6-understand-impact-of-wrong-choices-for-column-data-types)
 
 ## Materialized views impact
@@ -1568,7 +1568,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - workers have slots they can fill with tasks
   - slots are determined by number of cores
 - managed resource group
-- Azure Kubernetes Services (AKS) runs dbx control (e.g. cluster creation)
+- Azure Kubernetes Services (AKS) runs Databricks control (e.g. cluster creation)
 
 # Azure Databricks performance features
 <https://docs.microsoft.com/en-us/learn/modules/describe-lazy-evaluation-performance-features-azure-databricks>
@@ -1589,13 +1589,13 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 <https://docs.microsoft.com/en-us/learn/modules/describe-platform-architecture-security-data-protection-azure-databricks>
 
 ## Control and Data planes
-- Azure manages dbx file system
-  - customers can r/w, but cannot change settings etc.
+- Azure manages Databricks file system
+  - customers can r/w (from Databricks), but cannot change settings etc.
 
 ## Data protection
 - encryption at rest
   - managed keys
-  - file/folder lvl ACL
+  - file/folder level ACL
 - encryption in transit
   - all traffic encrypted with TLS
 - access control
@@ -1603,12 +1603,12 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - can limit who can use specific clusters
   - table permissions
 - secrets
-  - dbx backend or Azure Key Vault
+  - Databricks backend or Azure Key Vault
 
 ## Security
 ### Network
 - VNet peering
-  - dbx VNet can peer with other Azure VNets
+  - Databricks VNet can peer with other Azure VNets
   - all traffic is through private IPs in Microsoft
 - VNet injection
   - deploy data plane in custom VNet
@@ -1624,7 +1624,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - HITRUST, AICPA, PCI DSS, ISO 27001, ISO 27018, HIPAA, SOC2 (Type 2)
 
 ## Key Vault secrets
-- use Key Vault to register secrets in dbx
+- use Key Vault to register secrets in Databricks
 - `dbutils.secrets ...`
 # CI/CD in Databricks with Azure DevOps
 <https://docs.microsoft.com/en-us/learn/modules/implement-ci-cd-azure-devops>
@@ -1658,18 +1658,18 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 
 ## Admin
 - when managing many workspaces, use ARM templates
-- DBX limits
-  - 1000 jobs/workspace / hour
+- Databricks limits
+  - 1000 jobs / workspace / hour
   - 150 running jobs / workspace
   - 150 notebooks or execution contexts / cluster
-  - 1500 DBX API calls / hour
+  - 1500 Databricks API calls / hour
 - Azure subscription limits
   - 250 storage accs / region / subscription
   - 50 Gbps total egress for storage account
   - 25 000 VMs / region / subscription
   - 980 rgs / subscription
 - High Availability / Disaster Recovery (HA/DR)
-  - DBX in two paired Azure regions with different control planes
+  - Databricks in two paired Azure regions with different control planes
     - Azure Traffic Manager for load balance and API request distribution
 - one workspace / environment / data tier / business team / department
 - workspace level tags
@@ -1678,9 +1678,9 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
 - isolate workspace VNets
 - no prod data in DBFS
 - secrets in key vault
-  - DBX or Azure Key Vault
+  - Databricks or Azure Key Vault
 - ADLS passthrough
-  - requires premium dbx
+  - requires premium Databricks
 
 ## Usage
 - audit logs and utilization metrics
@@ -1692,7 +1692,7 @@ sqlanalytics("<DBName>.<Schema>.<TableName>")
   - if you do, use cluster scoped scripts (not global)
 - logs to blob storage via Cluster Log Delivery
   - DBFS logs are purged every 30 days
-  - cannot read DBFS from outside dbx workspace
+  - cannot read DBFS from outside Databricks workspace
 
 ## Databricks runtime
 - tune shuffle

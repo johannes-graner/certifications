@@ -3,18 +3,18 @@
 
 ## Admin
 - when managing many workspaces, use ARM templates
-- DBX limits
-  - 1000 jobs/workspace / hour
+- Databricks limits
+  - 1000 jobs / workspace / hour
   - 150 running jobs / workspace
   - 150 notebooks or execution contexts / cluster
-  - 1500 DBX API calls / hour
+  - 1500 Databricks API calls / hour
 - Azure subscription limits
   - 250 storage accs / region / subscription
   - 50 Gbps total egress for storage account
   - 25 000 VMs / region / subscription
   - 980 rgs / subscription
 - High Availability / Disaster Recovery (HA/DR)
-  - DBX in two paired Azure regions with different control planes
+  - Databricks in two paired Azure regions with different control planes
     - Azure Traffic Manager for load balance and API request distribution
 - one workspace / environment / data tier / business team / department
 - workspace level tags
@@ -23,9 +23,9 @@
 - isolate workspace VNets
 - no prod data in DBFS
 - secrets in key vault
-  - DBX or Azure Key Vault
+  - Databricks or Azure Key Vault
 - ADLS passthrough
-  - requires premium dbx
+  - requires premium Databricks
 
 ## Usage
 - audit logs and utilization metrics
@@ -37,7 +37,7 @@
   - if you do, use cluster scoped scripts (not global)
 - logs to blob storage via Cluster Log Delivery
   - DBFS logs are purged every 30 days
-  - cannot read DBFS from outside dbx workspace
+  - cannot read DBFS from outside Databricks workspace
 
 ## Databricks runtime
 - tune shuffle

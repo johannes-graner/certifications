@@ -2,13 +2,13 @@
 <https://docs.microsoft.com/en-us/learn/modules/describe-platform-architecture-security-data-protection-azure-databricks>
 
 ## Control and Data planes
-- Azure manages dbx file system
-  - customers can r/w, but cannot change settings etc.
+- Azure manages Databricks file system
+  - customers can r/w (from Databricks), but cannot change settings etc.
 
 ## Data protection
 - encryption at rest
   - managed keys
-  - file/folder lvl ACL
+  - file/folder level ACL
 - encryption in transit
   - all traffic encrypted with TLS
 - access control
@@ -16,12 +16,12 @@
   - can limit who can use specific clusters
   - table permissions
 - secrets
-  - dbx backend or Azure Key Vault
+  - Databricks backend or Azure Key Vault
 
 ## Security
 ### Network
 - VNet peering
-  - dbx VNet can peer with other Azure VNets
+  - Databricks VNet can peer with other Azure VNets
   - all traffic is through private IPs in Microsoft
 - VNet injection
   - deploy data plane in custom VNet
@@ -37,5 +37,5 @@
   - HITRUST, AICPA, PCI DSS, ISO 27001, ISO 27018, HIPAA, SOC2 (Type 2)
 
 ## Key Vault secrets
-- use Key Vault to register secrets in dbx
+- use Key Vault to register secrets in Databricks
 - `dbutils.secrets ...`

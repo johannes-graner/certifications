@@ -40,7 +40,7 @@
 
 ## Dynamic management views
 - monitor SQL pools programmatically with T-SQL
-- > 90 views available in following areas
+- \> 90 views available in following areas
   - connection info and activity
     - `sys.dm_pdw_exec_sessions`
   - SQL execution requests and queries

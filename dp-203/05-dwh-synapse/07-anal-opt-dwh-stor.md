@@ -51,7 +51,7 @@
   - smallest int type is `tinyint` (0-255) (e.g. age)
   - `DATETIME` instead of string or int, conversion overhead is expensive
   - use `DATE` instead of `DATETIME` if time of day is unnecessary
-- PolyBase load only works with < 1 MB rows, BCP always works
+- PolyBase load only works with < 1 MB row size, BCP always works
 - [workarounds for unsupported types in dedicated SQL pools](https://docs.microsoft.com/en-us/learn/modules/analyze-optimize-data-warehouse-storage-azure-synapse-analytics/6-understand-impact-of-wrong-choices-for-column-data-types)
 
 ## Materialized views impact
