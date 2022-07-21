@@ -68,7 +68,7 @@
 ### Scripts
 - use `azureml.core.Run.get_context()` in script
 - script config: `azureml.core.ScriptRunConfig(source_directory=..., script=...)`
-- submit script: `experiment.submit(config=...).wait_for_completion(show_output=[T/F])`
+- submit script: `experiment.submit(config=...).wait_for_completion(show_output=[T|F])`
 - can also use MLFlow
 # Train a machine learning model with Azure Machine Learning
 <https://docs.microsoft.com/en-us/learn/modules/train-local-model-with-azure-mls/>
