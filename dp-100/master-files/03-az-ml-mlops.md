@@ -190,7 +190,7 @@
   - `compute.DatabricksCompute(...)`
   - `compute.ComputeTarget.attach(ws, name, config)`
 - check existance:
-```
+```python
 from azureml.core.compute import ComputeTarget, AmlCompute
 from azureml.core.compute_target import ComputeTargetException
 
@@ -232,7 +232,7 @@ except ComputeTargetException:
   - `prepped_data = azureml.data.OutputFileDatasetConfig('prepped')`
   - `['--out_folder', prepped_data]` as argument in step 1 (output into `prepped_data`)
     - in step 1: 
-    ```
+    ```python
     parser.add_argument('--out_folder', type=str, dest='folder')
     args = parser.parse_args()
     output_folder = args.folder

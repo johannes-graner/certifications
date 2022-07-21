@@ -40,7 +40,7 @@
   - `compute.DatabricksCompute(...)`
   - `compute.ComputeTarget.attach(ws, name, config)`
 - check existance:
-```
+```python
 from azureml.core.compute import ComputeTarget, AmlCompute
 from azureml.core.compute_target import ComputeTargetException
 
